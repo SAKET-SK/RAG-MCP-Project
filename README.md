@@ -8,6 +8,14 @@ Built as a capstone project to demonstrate practical AI/ML system design and ful
 
 Table of Contents:
 - <a href="#highlights">Highlights</a>
+- <a href="#architecture">Architecture</a>
+- <a href="#tech_stack">Tech Stack</a>
+- <a href="#features">Features</a>
+- <a href="#installation">Installation</a>
+- <a href="#project_structure">Project Structure</a>
+- <a href="#future">Future Roadmap</a>
+- <a href="#contribute">Contribute</a>
+
 ---
 
 <h3 id="highlights">Highlights</h3>
@@ -23,7 +31,7 @@ Table of Contents:
 
 ---
 
-<h3>Architecture</h3>
+<h3 id="architecture">Architecture</h3>
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -68,7 +76,7 @@ How it works:
 
 ---
 
-<h3>Tech Stack</h3>
+<h3 id="tech_stack">Tech Stack</h3>
 
 Core Technologies:
 <ul>
@@ -100,7 +108,7 @@ Design:
 
 ---
 
-<h3>Features</h3>
+<h3 id="features">Features</h3>
 
 Current Features (v1.0)
 
@@ -138,7 +146,7 @@ System Capabilities
 
 ---
 
-<h3>Installation</h3>
+<h3 id="installation">Installation</h3>
 
 Prerequisites:
 - Python 3.11 or higher
@@ -209,7 +217,7 @@ The app will open in your browser at http://localhost:8501
 
 ---
 
-<h3>Project Structure</h3>
+<h3 id="project_structure">Project Structure</h3>
 
 ```
 intellihr-rag-mcp/
@@ -238,7 +246,7 @@ intellihr-rag-mcp/
 
 ---
 
-<h3>Future Roadmap</h3>
+<h3 id="future">Future Roadmap</h3>
 <ul>
  <li> Enhanced RAG - Vector search for announcements (eliminate hallucination) </li>
  <li> Voice Interface - Speech-to-text and text-to-speech </li>
@@ -263,7 +271,7 @@ Under Consideration:
 
 ---
 
-<h3>Contribution</h3>
+<h3 id="contribute">Contribution</h3>
 
 Contributions are welcome! Here's how you can help:
 
