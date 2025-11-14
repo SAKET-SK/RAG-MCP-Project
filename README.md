@@ -6,7 +6,7 @@ An intelligent HR assistant that orchestrates multiple data sources using Model 
 
 Built as a capstone project to demonstrate practical AI/ML system design and full-stack development.
 
-Table of Contents:
+<span id="#table">Table of Contents:</span>
 - <a href="#highlights">Highlights</a>
 - <a href="#architecture">Architecture</a>
 - <a href="#tech_stack">Tech Stack</a>
@@ -29,6 +29,7 @@ Table of Contents:
   <li> Real-time Analytics - Track queries, tools used, and system performance </li>
 </ul>
 
+<a href="#table">Back to the top</a>
 ---
 
 <h3 id="architecture">Architecture</h3>
@@ -74,6 +75,7 @@ How it works:
   <li> Response → LLM combines results into coherent answer </li>
 </ul>
 
+<a href="#table">Back to the top</a>
 ---
 
 <h3 id="tech_stack">Tech Stack</h3>
@@ -106,6 +108,7 @@ Design:
 <li> SVG architecture diagrams </li>
 </ul>
 
+<a href="#table">Back to the top</a>
 ---
 
 <h3 id="features">Features</h3>
@@ -144,6 +147,7 @@ System Capabilities
 - Zero hallucination with RAG
 - Conversation memory for follow-up questions
 
+<a href="#table">Back to the top</a>
 ---
 
 <h3 id="installation">Installation</h3>
@@ -207,7 +211,7 @@ Step 7 : Run the orchestrator
 python orchestrator.py
 ```
 
-Step 6 : Run the Application
+Step 8 : Run the Application
 
 ```
 streamlit run app.py
@@ -215,6 +219,7 @@ streamlit run app.py
 
 The app will open in your browser at http://localhost:8501
 
+<a href="#table">Back to the top</a>
 ---
 
 <h3 id="project_structure">Project Structure</h3>
@@ -243,7 +248,7 @@ intellihr-rag-mcp/
 ├── employees.db               # SQLite database (created after setup)
 └── README.md                  # This file
 ```
-
+<a href="#table">Back to the top</a>
 ---
 
 <h3 id="future">Future Roadmap</h3>
@@ -269,6 +274,7 @@ Under Consideration:
 <li> Real-time collaboration features </li>
 </ul>
 
+<a href="#table">Back to the top</a>
 ---
 
 <h3 id="contribute">Contribution</h3>
@@ -289,3 +295,5 @@ Areas for Contribution
 - Bug fixes
 - Documentation improvements
 - Test coverage
+
+<a href="#table">Back to the top</a>
