@@ -112,7 +112,7 @@ Core Technologies:
 <li> Groq API - LLM inference (llama-3.3-70b-versatile) </li>
 <li> SQLite - Employee database </li>
 <li> ChromaDB - Vector database for RAG </li>
-<li> LangChain - RAG pipeline orchestration <li> 
+<li> LangChain - RAG pipeline orchestration </li> 
 </ul>
 
 Key Libraries:
