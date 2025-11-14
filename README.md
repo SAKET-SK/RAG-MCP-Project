@@ -147,7 +147,7 @@ System Capabilities
 - Zero hallucination with RAG
 - Conversation memory for follow-up questions
 
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
 ---
 
 <h3 id="installation">Installation</h3>
