@@ -133,3 +133,89 @@ System Capabilities
 - Sub-2s average response time
 - Zero hallucination with RAG
 - Conversation memory for follow-up questions
+
+---
+
+<h3>Installation</h3>
+
+Prerequisites:
+- Python 3.11 or higher
+- Groq API key (Get one free)
+
+Step 1 : Clone the repository
+
+```
+git clone https://github.com/yourusername/intellihr-rag-mcp.git
+cd intellihr-rag-mcp
+```
+
+Step 2 : Create virtual environment
+
+```
+python -m venv .venv
+
+# Activate
+# Windows:
+.venv\Scripts\activate
+# Linux/Mac:
+source .venv/bin/activate
+```
+
+Step 3 : Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+Step 4 : Set up environment variables
+
+```
+# Windows PowerShell
+$env:GROQ_API_KEY="your-groq-api-key-here"
+
+# Linux/Mac
+export GROQ_API_KEY="your-groq-api-key-here"
+```
+
+Step 5 : Initialize the Database
+
+```
+python setup_database.py
+```
+
+Step 6 : Run the Application
+
+```
+streamlit run app.py
+```
+
+The app will open in your browser at http://localhost:8501
+
+---
+
+<h3>Project Structure</h3>
+
+```
+intellihr-rag-mcp/
+├── app.py                      # Main Streamlit application
+├── orchestrator.py             # LLM orchestrator for tool routing
+├── setup_database.py           # Database initialization script
+├── requirements.txt            # Python dependencies
+│
+├── mcp_servers/               # MCP Server implementations
+│   ├── database_server.py     # Employee database server
+│   ├── filesystem_server.py   # Announcements server
+│   └── rag_server.py          # Policy documents RAG server
+│
+├── ui/                        # UI components
+│   ├── __init__.py
+│   └── styles.py              # Custom CSS styles
+│
+├── data/                      # Data storage
+│   ├── announcements/         # Text files for announcements
+│   ├── policies/              # PDF policy documents
+│   └── chroma_store/          # ChromaDB vector database
+│
+├── employees.db               # SQLite database (created after setup)
+└── README.md                  # This file
+```
