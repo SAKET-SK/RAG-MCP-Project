@@ -183,6 +183,20 @@ Step 5 : Initialize the Database
 python setup_database.py
 ```
 
+Step 6 : Run the mcp servers to initialize them
+
+```
+python mcp_servers/database_server.py
+python mcp_servers/rag_server.py
+python mcp_servers/file_system_server.py
+```
+
+Step 7 : Run the orchestrator
+
+```
+python orchestrator.py
+```
+
 Step 6 : Run the Application
 
 ```
