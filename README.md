@@ -9,6 +9,7 @@ Built as a capstone project to demonstrate practical AI/ML system design and ful
 <span id="#table">Table of Contents:</span>
 - <a href="#highlights">Highlights</a>
 - <a href="#architecture">Architecture</a>
+- <a href="#demo">Demo Screenshots</a>
 - <a href="#tech_stack">Tech Stack</a>
 - <a href="#features">Features</a>
 - <a href="#installation">Installation</a>
@@ -76,6 +77,30 @@ How it works:
 </ul>
 
 - <a href="#table">Back to the top</a>
+---
+
+<h3 id="demo">Demo Screenshots</h3>
+
+Main Page:
+
+<img width="1347" height="593" alt="image" src="https://github.com/user-attachments/assets/12a968da-41f2-4613-91a4-e5403ffe0141" />
+
+You may select questions from quick actions or ask your own:
+
+<img width="1361" height="515" alt="image" src="https://github.com/user-attachments/assets/2b556846-deac-4014-bd73-329a70be4b1b" />
+
+Querying:
+
+<img width="1345" height="579" alt="image" src="https://github.com/user-attachments/assets/2df7869e-6e06-4978-8241-f11eb2142515" />
+
+More Querying:
+
+<img width="1353" height="569" alt="image" src="https://github.com/user-attachments/assets/ab8547d3-15fa-4d98-9b42-c7f0b18ba31d" />
+
+Analytics Dashboard:
+
+<img width="1327" height="573" alt="image" src="https://github.com/user-attachments/assets/7fa94e75-a2b4-48e3-b196-a99c360f0bc0" />
+
 ---
 
 <h3 id="tech_stack">Tech Stack</h3>
