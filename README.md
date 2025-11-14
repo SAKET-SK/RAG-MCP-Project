@@ -29,7 +29,7 @@ Built as a capstone project to demonstrate practical AI/ML system design and ful
   <li> Real-time Analytics - Track queries, tools used, and system performance </li>
 </ul>
 
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
 ---
 
 <h3 id="architecture">Architecture</h3>
@@ -75,7 +75,7 @@ How it works:
   <li> Response → LLM combines results into coherent answer </li>
 </ul>
 
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
 ---
 
 <h3 id="tech_stack">Tech Stack</h3>
@@ -108,7 +108,7 @@ Design:
 <li> SVG architecture diagrams </li>
 </ul>
 
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
 ---
 
 <h3 id="features">Features</h3>
@@ -219,7 +219,7 @@ streamlit run app.py
 
 The app will open in your browser at http://localhost:8501
 
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
 ---
 
 <h3 id="project_structure">Project Structure</h3>
@@ -248,7 +248,7 @@ intellihr-rag-mcp/
 ├── employees.db               # SQLite database (created after setup)
 └── README.md                  # This file
 ```
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
 ---
 
 <h3 id="future">Future Roadmap</h3>
@@ -274,7 +274,7 @@ Under Consideration:
 <li> Real-time collaboration features </li>
 </ul>
 
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
 ---
 
 <h3 id="contribute">Contribution</h3>
@@ -296,4 +296,4 @@ Areas for Contribution
 - Documentation improvements
 - Test coverage
 
-<a href="#table">Back to the top</a>
+- <a href="#table">Back to the top</a>
