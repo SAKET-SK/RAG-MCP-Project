@@ -79,18 +79,21 @@ Core Technologies:
 </ul>
 
 Key Libraries:
+<ul>
 <li> langchain - Document processing and RAG </li>
 <li> langchain-groq - Groq LLM integration </li>
 <li> langchain-huggingface - Embeddings (all-MiniLM-L6-v2) </li>
 <li> chromadb - Vector storage </li>
 <li> pypdf - PDF document loading </li>
 <li> asyncio - Asynchronous operations </li>
+</ul>
 
 Design:
+<ul>
 <li> Custom CSS with glassmorphism </li>
 <li> Responsive design </li>
 <li> Dark theme with purple gradient </li>
 <li> SVG architecture diagrams </li>
-
+</ul>
 ---
 
