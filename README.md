@@ -6,9 +6,11 @@ An intelligent HR assistant that orchestrates multiple data sources using Model 
 
 Built as a capstone project to demonstrate practical AI/ML system design and full-stack development.
 
+Table of Contents:
+- <a href="#highlights">Highlights</a>
 ---
 
-<h3>Highlights</h3>
+<h3 id="highlights">Highlights</h3>
 
 <ul>
   <li> Smart Orchestration - LLM intelligently routes queries to appropriate data sources </li>
@@ -233,3 +235,49 @@ intellihr-rag-mcp/
 ├── employees.db               # SQLite database (created after setup)
 └── README.md                  # This file
 ```
+
+---
+
+<h3>Future Roadmap</h3>
+<ul>
+ <li> Enhanced RAG - Vector search for announcements (eliminate hallucination) </li>
+ <li> Voice Interface - Speech-to-text and text-to-speech </li>
+ <li> Multi-tenancy - Department-specific access control </li>
+ <li> Advanced Analytics - Query insights and usage patterns </li>
+ <li> API Endpoints - REST API for programmatic access </li>
+ <li> Mobile Responsive - Optimized mobile experience </li>
+ <li> Export Features - Download chat history and reports </li>
+ <li> Admin Dashboard - Manage documents and users </li>
+ <li> Fine-tuned Models - Custom model for domain-specific queries </li>
+ <li> Docker Deployment - Containerized deployment </li>
+</ul>
+
+Under Consideration:
+<ul>
+<li> Integration with Slack/Teams </li>
+<li> Email notification system </li>
+<li> Document auto-ingestion pipeline </li>
+<li> Multi-language support </li>
+<li> Real-time collaboration features </li>
+</ul>
+
+---
+
+<h3>Contribution</h3>
+
+Contributions are welcome! Here's how you can help:
+
+- Fork the repository
+- Create a feature branch (git checkout -b feature/AmazingFeature)
+- Commit changes (git commit -m 'Add AmazingFeature')
+- Push to branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+Areas for Contribution
+
+- UI/UX improvements
+- Additional data source integrations
+- Performance optimizations
+- Bug fixes
+- Documentation improvements
+- Test coverage
